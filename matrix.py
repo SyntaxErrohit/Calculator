@@ -14,6 +14,6 @@ def multiply(matrix_a, matrix_b):
         return ans
 
 a = [[3, -3, 4], [2, -3, 4], [0, -1, 1]]
-b = multiply(a,a)
+b = [[1, -1, 0], [-2, 3, -4], [-2, 3, -3]]
 c = multiply(b,a)
 print(*c, sep='\n')
